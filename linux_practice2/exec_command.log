@@ -1,0 +1,88 @@
+  730  mkdir server_lesson && cd server_lesson
+  731  ls
+  732  yum update -y && yum -y install git
+  733  git version
+  734  git init
+  735  touch first.txt
+  736  ls
+  737  linux_practice1
+  738  touch linux_practice1
+  739  ls
+  740  rm -r linux_practice1
+  741  ls
+  742  mkdir linux_practice1
+  743  ls
+  744  cd linux_practice1
+  745  ls
+  746  touch index.php
+  747  ls
+  748  rm -r index.php
+  749  ls
+  750  mkdir public
+  751  ls
+  752  cd public
+  753  ls
+  754  touch index.php
+  755  ls
+  756  cp index.php index_bk.php
+  757  ls
+  758  cd ../
+  759  cp public tmp
+  760  ls
+  761  cd ../
+  762  ls
+  763  cd linux_practice1
+  764  ls
+  765  cp -r public tmp
+  766  ls
+  767  cd tmp
+  768  ls
+  769  rm index_bk.php
+  770  ls
+  771  cd server_lesson/
+  772  cd ..
+  773  cd..
+  774  cd ../
+  775  ls
+  776  README.md
+  777  touch README.md
+  778  ls
+  779  vi README.md
+  780  mkdir linux_practice2
+  781  ls
+  782  cd linux_practice2
+  783  ls
+  784  mkdir documents
+  785  ls
+  786  cd documents
+  787  touch gizumo{1..50}.md
+  788  ls
+  789  cd ../
+  790  ls
+  791  mkdir trash
+  792  ls
+  793  cd trash
+  794  cd ../
+  795  cd documents
+  796  ls
+  797  mv gizumo{20..40}.md /trash
+  798  mv gizumo{20..40}.md trash
+  799  mv gizumo{20..40}.md trash/
+  800  mv gizumo{20..40}.md linux_practice2/trash
+  801  cd ../
+  802  cd trash
+  803  mv documents/gizumo{20..40}.md trash
+  804  mv documents/gizumo{20..40}.md /trash
+  805  mv documents/gizumo{20..40}.md linux_practice2/trash
+  806  mv documents/gizumo{20..40}.md trash/.
+  807  ls
+  808  cd ../
+  809  mv documents/gizumo{20..40}.md trash
+  810  cd trash
+  811  ls
+  812  cd ../
+  813  touch .gitignore
+  814  vi .gitignore
+  815  ls
+  816  ls -la
+  817  history 300
